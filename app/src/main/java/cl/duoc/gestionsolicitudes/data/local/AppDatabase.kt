@@ -14,7 +14,7 @@ abstract class AppDatabase : RoomDatabase() {
     companion object {
         @Volatile
         private var INSTANCE: AppDatabase? = null
-
+        //cometario
         // Singleton: se reutiliza una sola instancia de la base de datos
         fun getDatabase(context: Context): AppDatabase {
             return INSTANCE ?: synchronized(this) {
