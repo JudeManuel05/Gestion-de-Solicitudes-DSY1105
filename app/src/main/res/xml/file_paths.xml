@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Carpeta interna donde se guardan las fotos de evidencia -->
+    <files-path
+        name="evidencias"
+        path="evidencias/" />
+</paths>
